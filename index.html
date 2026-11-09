@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GAME | Videojuegos, consolas y accesorios</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="top-inner">
+      <a class="logo" href="index.html">GAME</a>
+      <button class="menu-button" aria-expanded="false"><i data-lucide="menu"></i> Menú</button>
+      <form class="search" action="tienda.html">
+        <input name="q" type="search" placeholder="¿Qué estás buscando hoy, gamer?" aria-label="Buscar productos">
+        <button aria-label="Buscar"><i data-lucide="search"></i></button>
+      </form>
+      <nav class="quick-actions">
+        <a href="tienda.html" aria-label="Buscar"><i data-lucide="search"></i></a>
+        <button class="cart-button" aria-label="Carrito"><i data-lucide="shopping-cart"></i><b class="cart-count">0</b></button>
+        <a class="login" href="comunidad.html"><i data-lucide="user-round"></i> Iniciar sesión</a>
+      </nav>
+    </div>
+    <div class="promo-bar"><span>🔥 Pre Black Friday</span><span>👾 Marca GAME</span><span>💻 Portátil Medion 899,99€</span><span>⌨ WOW Forever</span></div>
+    <nav class="category-nav" aria-label="Categorías">
+      <a class="current" href="index.html">Inicio</a><a href="tienda.html">Videojuegos</a><a href="consolas.html">Consolas</a><a href="accesorios.html">Accesorios</a><a href="ofertas.html">Ofertas</a><a href="comunidad.html">Club GAME</a>
+    </nav>
+    <div class="mobile-links"><a href="tienda.html">Videojuegos</a><a href="consolas.html">Consolas</a><a href="accesorios.html">Accesorios</a><a href="ofertas.html">Ofertas</a><a href="comunidad.html">Club GAME</a></div>
+  </header>
+
+  <main>
+    <section class="home-hero">
+      <div class="hero-copy"><p class="small-label">NOVEDAD NINTENDO SWITCH 2</p><h1>The Legend of Zelda:<br>Ocarina of Time</h1><p>El clásico de Zelda renace en Nintendo Switch 2. Cómpralo y llévate un póster exclusivo solo en GAME.</p><a class="pink-button" href="producto.html">Ver juego <i data-lucide="chevron-right"></i></a><div class="benefits"><span>↪ Acumula puntos</span><span>♧ Envío gratis a partir de 30€</span></div></div>
+      <div class="hero-image"><img src="https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=1400&q=85" alt="Videojuego de aventura en una consola"></div>
+    </section>
+
+    <section class="home-products">
+      <div class="deal-card"><span>◷ Hasta -10% dto.</span><img src="https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&w=700&q=80" alt="Consola Nintendo"><h2>Nintendo Switch 2</h2><a href="consolas.html">Ver consolas <i data-lucide="arrow-up-right"></i></a></div>
+      <div class="deal-card"><span>⌁ Hasta -50% dto.</span><img src="https://images.unsplash.com/photo-1592840496694-26d035b52b48?auto=format&fit=crop&w=700&q=80" alt="Accesorios gaming"><h2>Accesorios GAME</h2><a href="accesorios.html">Ver accesorios <i data-lucide="arrow-up-right"></i></a></div>
+      <div class="deal-card"><span>★ Hasta -60% dto.</span><img src="https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=700&q=80" alt="Merchandising de videojuegos"><h2>Merchandising</h2><a href="tienda.html">Ver productos <i data-lucide="arrow-up-right"></i></a></div>
+      <div class="deal-card"><span>▣ Hasta -30% dto.</span><img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=700&q=80" alt="Ordenador gaming"><h2>Actualiza tu PC setup</h2><a href="accesorios.html">Ver setup <i data-lucide="arrow-up-right"></i></a></div>
+    </section>
+
+    <section class="content-section">
+      <div class="section-title"><div><p class="eyebrow">LO MÁS BUSCADO</p><h2>Productos destacados</h2></div><a href="tienda.html" class="view-all">Ver todos <i data-lucide="arrow-right"></i></a></div>
+      <div class="product-grid">
+        <article class="product-card" data-name="EA Sports FC 26" data-price="59.99"><a href="producto.html"><div class="product-photo"><span class="discount">-20%</span><img src="https://images.unsplash.com/photo-1579952363873-27f3bade9f55?auto=format&fit=crop&w=700&q=80" alt="EA Sports FC 26"></div><p class="product-type">PS5 · FÚTBOL</p><h3>EA SPORTS FC 26</h3><div class="price">59,99€</div></a><button class="add-product">Añadir al carrito</button></article>
+        <article class="product-card" data-name="Mario Kart World" data-price="49.99"><a href="producto.html"><div class="product-photo"><span class="new">NUEVO</span><img src="https://images.unsplash.com/photo-1551103782-8ab07afd45c1?auto=format&fit=crop&w=700&q=80" alt="Mario Kart World"></div><p class="product-type">SWITCH 2 · CARRERAS</p><h3>MARIO KART WORLD</h3><div class="price">49,99€</div></a><button class="add-product">Añadir al carrito</button></article>
+        <article class="product-card" data-name="DualSense Edge" data-price="199.99"><a href="producto.html"><div class="product-photo"><img src="https://images.unsplash.com/photo-1600080972464-8e5f35f63d08?auto=format&fit=crop&w=700&q=80" alt="Mando inalámbrico"></div><p class="product-type">PS5 · ACCESORIOS</p><h3>DUALSENSE EDGE</h3><div class="price">199,99€</div></a><button class="add-product">Añadir al carrito</button></article>
+        <article class="product-card" data-name="Razer Blackshark" data-price="79.99"><a href="producto.html"><div class="product-photo"><span class="discount">-35%</span><img src="https://images.unsplash.com/photo-1599669454699-248893623440?auto=format&fit=crop&w=700&q=80" alt="Auriculares gaming"></div><p class="product-type">PC · AUDIO</p><h3>RAZER BLACKSHARK V2</h3><div class="price">79,99€</div></a><button class="add-product">Añadir al carrito</button></article>
+      </div>
+    </section>
+    <section class="club-banner"><div><p class="eyebrow">CLUB GAME</p><h2>Compra. Juega.<br><strong>Consigue más.</strong></h2><p>Acumula puntos en cada compra y consigue recompensas exclusivas.</p><a class="dark-button" href="comunidad.html">Descubre Club GAME</a></div><i data-lucide="gamepad-2"></i></section>
+  </main>
+  <footer><a class="logo" href="index.html">GAME</a><div><a href="tienda.html">Videojuegos</a><a href="ofertas.html">Ofertas</a><a href="comunidad.html">Ayuda y contacto</a></div><small>© 2024 GAME España · Diseñado para gamers</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
